@@ -26,7 +26,7 @@ namespace MyMessanger
             TimeStamp = DateTime.Now;
         }
 
-        public override string? ToString()
+        public override string ToString()
         {
             string output = String.Format("{0} <{2}>: {1}", UserName, MessageText, TimeStamp);
             return output;
