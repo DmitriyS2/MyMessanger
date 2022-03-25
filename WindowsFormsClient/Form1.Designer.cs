@@ -67,7 +67,9 @@
             // MessageTB
             // 
             this.MessageTB.Location = new System.Drawing.Point(44, 412);
+            this.MessageTB.Multiline = true;
             this.MessageTB.Name = "MessageTB";
+            this.MessageTB.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.MessageTB.Size = new System.Drawing.Size(540, 26);
             this.MessageTB.TabIndex = 3;
             // 
@@ -99,6 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(814, 467);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
